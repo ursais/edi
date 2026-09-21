@@ -1,2 +1,2 @@
 id,name,model_id,group_id/id,operation,domain
-access_sale_order_import,access_sale_order_import,model_sale_order_import,sales_team.group_sale_salesman,crud,
+access_sale_order_import,access_sale_order_import,sale.order.import,sales_team.group_sale_salesman,crud,
