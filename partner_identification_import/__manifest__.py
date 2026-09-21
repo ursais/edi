@@ -3,7 +3,7 @@
 
 {
     "name": "Partner Identification Import",
-    "version": "19.0.1.0.0",
+    "version": "20.0.1.0.0",
     "category": "Tools",
     "license": "AGPL-3",
     "summary": "Provides partner matching on extra ID",

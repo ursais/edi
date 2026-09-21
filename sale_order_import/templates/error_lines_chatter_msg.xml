@@ -25,9 +25,7 @@
                 <li>
                     <i><t t-out="key" />: </i>
                     <t t-if="values[key] and isinstance(values[key], dict)">
-                        <t t-call="sale_order_import.skip_error_line_value_message">
-                            <t t-set="values" t-value="values[key]" />
-                        </t>
+                        <t t-call="sale_order_import.skip_error_line_value_message" values="values[key]"/>
                     </t>
                     <t t-else="" t-out="values[key] or 'None'" />
                 </li>

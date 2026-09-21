@@ -3,7 +3,7 @@
 
 {
     "name": "Sale Order Import",
-    "version": "19.0.1.0.0",
+    "version": "20.0.1.0.0",
     "category": "Sales Management",
     "license": "AGPL-3",
     "summary": "Import RFQ or sale orders from files",
@@ -18,12 +18,10 @@
         "onchange_helper",
         # TODO: this dependency should be removed
         # and support for PDF import should be moved to a glue module
-        "pdf_xml_attachment",
-    ],
+        "pdf_xml_attachment"],
     "data": [
-        "security/ir.model.access.csv",
+        "security/ir.access.csv",
         "wizard/sale_order_import_view.xml",
-        "templates/error_lines_chatter_msg.xml",
-    ],
+        "templates/error_lines_chatter_msg.xml"],
     "installable": True,
 }
